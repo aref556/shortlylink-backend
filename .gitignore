@@ -1,0 +1,26 @@
+# Compiled Go binaries and executables
+*.exe
+*.dll
+*.so
+*.out
+
+# Go binary directory
+/bin/
+
+# Go build cache
+/vendor/
+/Godeps/
+
+# IDE-specific directories
+.vscode/
+.idea/
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+
+# Output files from go tooling
+/build/
+
+# macOS-specific files
+.DS_Store
